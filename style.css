@@ -123,7 +123,7 @@ p {
   padding: 0.625rem 1.875rem;
   line-height: 1.5625rem;
   background-color: var(--primary-color);
-  border: 0.1875rem solid var(--secondary-color);
+  border: 0.1875rem solid var(--primary-color);
   color: var(--black-color);
   font-size: 0.9375rem;
   font-weight: 600;
@@ -204,4 +204,15 @@ p {
 .navigation-wrap.scroll-on .nav-link:hover,
 .navigation-wrap.scroll-on .nav-link.active {
   color: var(--primary-color);
+}
+
+/* ============= TOP-BANNER ============ */
+.top-banner {
+  background: url(images/bg/bg-1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 9.375rem;
+}
+
+.top-banner p {
+  color: var(--white-color);
 }
