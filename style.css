@@ -146,3 +146,63 @@ p {
   width: 70%;
   margin: auto;
 }
+
+/* ============== HEADER DESIGN ============= */
+
+.navigation-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-out;
+}
+
+.navigation-wrap .nav-item {
+  padding: 0 0.625rem;
+  transition: all 0.3s linear;
+}
+
+.navbar-toggler:focus {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+
+.nav-link {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+.navigation-wrap .main-btn {
+  padding: 0.3125rem;
+  box-shadow: none;
+  margin-left: 0.625rem;
+}
+
+.navigation-wrap.scroll-on {
+  position: fixed;
+  background-color: var(--white-color);
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 0.125rem 1.75rem rgba(0, 0, 0, 0.19);
+  transition: all 0.15s ease-in-out 0s;
+}
+
+.navigation-wrap.scroll-on .nav-link{
+  color: var(--black-color);
+}
+
+.navigation-wrap.scroll-on .nav-link:hover,
+.navigation-wrap.scroll-on .nav-link.active{
+  color: var(--primary-color);
+}
+
