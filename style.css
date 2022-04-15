@@ -392,3 +392,15 @@ p {
   color: var(--primary-color);
 }
 
+/* ============ FORM CONTROL =========== */
+.newsletter .form-control {
+  height: 3.225rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  width: 100%;
+  border-radius: 0;
+  background: transparent;
+  border: 0.1875 solid var(--white-color);
+  color: var(--black-color);
+  font-weight: 700;
+}
