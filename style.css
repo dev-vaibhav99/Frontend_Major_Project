@@ -376,3 +376,18 @@ p {
 .testimonial-section .carousel-indicators button.active {
   opacity: 1;
 }
+
+/* ================= FOOTER SECTION DESING ================ */
+.footer {
+  background-color: var(--black-color);
+}
+
+.footer .footer-link {
+  font-size: 1rem;
+  color: var(--black-color);
+  padding: 0 1.875rem;
+}
+
+.footer .footer-social a:hover i {
+  color: var(--primary-color);
+}
