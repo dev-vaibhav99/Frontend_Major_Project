@@ -404,3 +404,15 @@ p {
   color: var(--black-color);
   font-weight: 700;
 }
+
+.newsletter .main-btn{
+  height: 3.225rem;
+  padding: 0 1.25rem;
+  font-size: 0.875rem;
+  border-radius: 0;
+  background-color: var(--white-color);
+  border: 0.1875rem solid var(--white-color);
+  color: var(--black-color);
+  font-weight: 700;
+}
+
